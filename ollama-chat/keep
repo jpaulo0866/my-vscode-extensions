@@ -1,0 +1,13 @@
+document.getElementById('askBtn').disabled = true;
+document.getElementById('askBtn').innerText = 'Aguarde...';
+
+const prompt = `
+Take the prompt below and answer the user:
+================================================================
+${message.text}
+================================================================
+ATTENTION: 
+    - Do not change the prompt, just answer the user.
+    - Respond with a HTML String containing the answer.
+    - Use semantic HTML syntax to answer the user, like use <p> tags for paragraphs and <li> tags for lists.
+`
